@@ -1,12 +1,30 @@
-import { Truck, Shield, Construction, Package, AlertTriangle, Wrench } from "lucide-react";
+import { Truck, HardHat, AlertTriangle, Wrench } from "lucide-react";
 
 const services = [
-  { icon: Truck, title: "Commercial Towing", desc: "Full-service commercial vehicle towing for trucks, vans, and fleet vehicles." },
-  { icon: Shield, title: "Heavy-Duty Recovery", desc: "Specialized recovery for overturned, stuck, or damaged heavy vehicles." },
-  { icon: Construction, title: "Tractor Trailer Towing", desc: "Expert towing for semi-trucks, trailers, and 18-wheelers." },
-  { icon: Package, title: "Equipment Transport", desc: "Safe transport for construction equipment and heavy machinery." },
-  { icon: AlertTriangle, title: "Accident Recovery", desc: "Fast response for accident scenes with professional cleanup." },
-  { icon: Wrench, title: "Commercial Roadside", desc: "On-the-spot roadside assistance for commercial vehicles." },
+  {
+    icon: Truck,
+    title: "Heavy Duty Towing & Recovery",
+    badge: "24 Hour Emergency Service",
+    desc: "Professional heavy-duty towing and recovery services available around the clock. No job is too big or too complex for our fleet.",
+  },
+  {
+    icon: HardHat,
+    title: "Heavy Equipment Hauling",
+    badge: "Any Equipment, Any Size",
+    desc: "Safe and reliable transport for construction equipment, industrial machinery, and oversized loads throughout Sullivan County and beyond.",
+  },
+  {
+    icon: AlertTriangle,
+    title: "24 Hour Emergency Towing & Recovery",
+    badge: null,
+    desc: "Towing Service, Lockouts, Fuel Delivery, Jump Starts, Tire Changes, Winch Outs, Roadside Assistance in Harris, Ferndale, Wurtsboro, Livingston Manor, Roscoe and beyond.",
+  },
+  {
+    icon: Wrench,
+    title: "Complete Autobody & Repair Facility Available",
+    badge: null,
+    desc: "We handle everything. From the initial tow from the accident scene to full repairs. We will work with ALL INSURANCE COMPANIES!",
+  },
 ];
 
 const Services = () => {
@@ -20,17 +38,26 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {services.map((svc) => (
             <div
               key={svc.title}
               className="group bg-card border border-border rounded-lg p-8 hover:glow-border transition-all duration-300 hover:-translate-y-1"
             >
-              <div className="w-14 h-14 rounded-md bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
-                <svc.icon className="text-primary" size={28} />
+              <div className="flex items-start gap-5">
+                <div className="w-14 h-14 rounded-md bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
+                  <svc.icon className="text-primary" size={28} />
+                </div>
+                <div>
+                  <h3 className="font-display text-xl font-bold text-foreground mb-1">{svc.title}</h3>
+                  {svc.badge && (
+                    <span className="inline-block text-xs font-bold tracking-wider uppercase bg-primary/15 text-primary px-3 py-1 rounded-full mb-3">
+                      {svc.badge}
+                    </span>
+                  )}
+                  <p className="text-muted-foreground text-sm leading-relaxed">{svc.desc}</p>
+                </div>
               </div>
-              <h3 className="font-display text-xl font-bold text-foreground mb-3">{svc.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">{svc.desc}</p>
             </div>
           ))}
         </div>
