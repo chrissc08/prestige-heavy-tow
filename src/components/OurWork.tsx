@@ -47,13 +47,13 @@ const OurWork = () => {
           {images.map((img, i) => (
             <div
               key={i}
-              className="overflow-hidden rounded-lg border border-border group"
+              className="overflow-hidden rounded-lg border border-border group aspect-[4/3] relative"
             >
               <img
                 src={img.src}
                 alt={img.alt}
                 loading="lazy"
-                className={`w-full h-64 md:h-80 object-cover ${img.focus} group-hover:scale-105 transition-transform duration-500`}
+                className="absolute inset-0 w-full h-full object-contain bg-black/50 group-hover:scale-105 transition-transform duration-500"
               />
             </div>
           ))}
