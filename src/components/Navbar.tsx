@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
-          <img src={logo} alt="Prestige Towing" className="h-10 md:h-12 w-auto" />
+          <img src={logo} alt="Prestige Towing" className="h-14 md:h-16 w-auto" />
           <div className="hidden sm:block">
             <span className="font-display text-lg md:text-xl font-bold text-foreground tracking-wide">
               PRESTIGE
