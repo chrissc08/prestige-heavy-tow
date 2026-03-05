@@ -49,7 +49,7 @@ const Hero = () => {
           </a>
           <a
             href="#contact"
-            className="flex items-center gap-2 border border-foreground/20 text-foreground px-8 py-4 rounded-md font-display font-semibold text-lg tracking-wide hover:border-primary/50 hover:text-primary transition-all"
+            className="flex items-center gap-2 border-2 border-primary text-primary px-8 py-4 rounded-md font-display font-semibold text-lg tracking-wide hover:bg-primary hover:text-primary-foreground transition-all"
           >
             Request Service
             <ArrowRight size={18} />
