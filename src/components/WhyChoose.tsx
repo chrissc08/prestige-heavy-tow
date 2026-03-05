@@ -1,12 +1,12 @@
 import { MapPin, Zap, Cog, Users, Globe, ThumbsUp } from "lucide-react";
 
 const points = [
-  { icon: MapPin, title: "Locally Owned & Operated", desc: "We know Sullivan County because we're from Sullivan County." },
-  { icon: Zap, title: "Fast Response Times", desc: "When you call, we're already on our way." },
-  { icon: Cog, title: "Heavy-Duty Equipment", desc: "Built to handle the toughest recovery jobs." },
-  { icon: Users, title: "Experienced Operators", desc: "Skilled professionals with years of towing expertise." },
-  { icon: Globe, title: "Serving All of Sullivan County", desc: "From Liberty to Monticello and everywhere in between." },
-  { icon: ThumbsUp, title: "Reliable & Professional", desc: "Count on us to get the job done right, every time." },
+  { icon: MapPin, title: "Locally Owned & Operated", desc: "We know Sullivan County because we're from Sullivan County, & have been in operation for 35 years." },
+  { icon: Zap, title: "Fast Response Times", desc: "Live dispatch 24 hours everyday." },
+  { icon: Cog, title: "Heavy-Duty Equipment", desc: "Over 60 state of the art rotators, wreckers and carriers." },
+  { icon: Users, title: "Experienced Operators", desc: "Skilled professionals with decades of towing & recovery experience." },
+  { icon: Globe, title: "Serving All of Sullivan County & Beyond", desc: "From Roscoe, NY to Harriman, NY and everywhere in between." },
+  { icon: ThumbsUp, title: "Reliable & Professional", desc: "Providing reliable & professional service & repairs to our customers and community for well over 35 years." },
 ];
 
 const WhyChoose = () => {

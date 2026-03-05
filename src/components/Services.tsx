@@ -1,5 +1,7 @@
 import { Truck, HardHat, AlertTriangle, Wrench } from "lucide-react";
 
+import { Car } from "lucide-react";
+
 const services = [
   {
     icon: Truck,
@@ -15,15 +17,21 @@ const services = [
   },
   {
     icon: AlertTriangle,
-    title: "24 Hour Emergency Towing & Recovery",
+    title: "24 Hour Towing & Road Service",
     badge: null,
-    desc: "Towing Service, Lockouts, Fuel Delivery, Jump Starts, Tire Changes, Winch Outs, Roadside Assistance in Harris, Ferndale, Wurtsboro, Livingston Manor, Roscoe and beyond.",
+    desc: "Towing Service, Lockouts, Fuel Delivery, Jump Starts, Tire Changes, Winch Outs, Roadside Assistance in Sullivan, Orange, Ulster, and Delaware County.",
   },
   {
     icon: Wrench,
-    title: "Complete Autobody & Repair Facility Available",
+    title: "Complete Autobody, Fabrication, Mechanical Repair Facilities",
     badge: null,
-    desc: "We handle everything. From the initial tow from the accident scene to full repairs. We will work with ALL INSURANCE COMPANIES!",
+    desc: "We handle everything. From the initial tow from the accident scene to final repairs. We will work with ALL INSURANCE COMPANIES as well as fleet and private owners.",
+  },
+  {
+    icon: Car,
+    title: "Rental & Leasing Services",
+    badge: null,
+    desc: "Rental vehicles and trailer leasing available while repairs are being made.",
   },
 ];
 
