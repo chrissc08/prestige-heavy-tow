@@ -20,7 +20,7 @@ const images = [
   { src: work3, alt: "Prestige Towing truck performing roadside recovery in summer", focus: "object-center" },
   { src: work4, alt: "Prestige Towing heavy wrecker on a rural road", focus: "object-center" },
   { src: work5, alt: "Prestige Towing rotator crane lifting inside a warehouse", focus: "object-[50%_65%]" },
-  { src: work6, alt: "Prestige Towing heavy recovery of an overturned dump truck", focus: "object-[50%_48%]" },
+  { src: work6, alt: "Prestige Towing heavy recovery of an overturned dump truck", focus: "object-[50%_35%]" },
   { src: work7, alt: "Prestige Towing highway recovery with crane extended", focus: "object-[50%_55%]" },
   { src: work8, alt: "Prestige Towing roadside recovery with multiple wreckers", focus: "object-[50%_45%]" },
   { src: work9, alt: "Prestige Towing hauling oversized excavator on lowboy trailer", focus: "object-center" },
