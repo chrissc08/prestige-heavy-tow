@@ -53,7 +53,7 @@ const OurWork = () => {
                 src={img.src}
                 alt={img.alt}
                 loading="lazy"
-                className="absolute inset-0 w-full h-full object-contain bg-black/50 group-hover:scale-105 transition-transform duration-500"
+                className={`absolute inset-0 w-full h-full object-cover ${img.focus} group-hover:scale-105 transition-transform duration-500`}
               />
             </div>
           ))}
