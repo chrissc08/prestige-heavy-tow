@@ -15,8 +15,7 @@ const Hero = () => {
           className="w-full h-full object-cover object-center"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/20 to-transparent" />
-        {/* Removed teal fade overlay */}
+        {/* No overlays — fully unfiltered photo */}
       </div>
 
       {/* Content */}
