@@ -12,7 +12,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14">
-          <div className="w-64 h-64 md:w-80 md:h-80 flex-shrink-0 rounded-lg overflow-hidden border-2 border-primary/20 glow-box">
+          <div className="w-72 h-72 md:w-96 md:h-96 flex-shrink-0 rounded-lg overflow-hidden border-2 border-primary/20 glow-box">
             <img
               src={ownerImg}
               alt="Sean Brooks, Owner of Prestige Towing & Companies"
