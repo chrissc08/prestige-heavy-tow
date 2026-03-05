@@ -19,11 +19,11 @@ const services = [
     icon: AlertTriangle,
     title: "24 Hour Towing & Road Service",
     badge: null,
-    desc: "Towing Service, Lockouts, Fuel Delivery, Jump Starts, Tire Changes, Winch Outs, Roadside Assistance in Sullivan, Orange, Ulster, and Delaware County.",
+    desc: "Roadside Assistance in Sullivan, Orange, Ulster, and Delaware County.",
   },
   {
     icon: Wrench,
-    title: "Complete Autobody, Fabrication, Mechanical Repair Facilities",
+    title: "Complete Autobody, Fabrication, & Mechanical Repair Facilities",
     badge: null,
     desc: "We handle everything. From the initial tow from the accident scene to final repairs. We will work with ALL INSURANCE COMPANIES as well as fleet and private owners.",
   },
