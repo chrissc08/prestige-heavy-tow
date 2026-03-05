@@ -1,5 +1,5 @@
 import { Phone, ArrowRight } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-truck.jpeg";
 
 const PHONE = "(845) 794-8522";
 const PHONE_HREF = "tel:8457948522";
@@ -15,7 +15,7 @@ const Hero = () => {
           className="w-full h-full object-cover object-center"
           loading="eager"
         />
-        {/* No overlays — fully unfiltered photo */}
+        
       </div>
 
       {/* Content */}
