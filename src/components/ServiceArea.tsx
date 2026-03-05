@@ -19,7 +19,7 @@ const ServiceArea = () => {
           {areas.map((area) => (
             <span
               key={area}
-              className="bg-card border border-border text-foreground px-5 py-2.5 rounded-full text-sm font-medium hover:border-primary/40 hover:text-primary transition-colors"
+              className="bg-primary/10 border border-primary/30 text-primary px-5 py-2.5 rounded-full text-sm font-medium hover:bg-primary/20 hover:border-primary/50 transition-colors"
             >
               {area}
             </span>
