@@ -1,4 +1,4 @@
-const areas = ["Liberty", "Monticello", "Fallsburg", "Rock Hill", "Woodridge", "Loch Sheldrake", "Wurtsboro", "Ellenville"];
+const areas = ["Roscoe", "Liberty", "North Branch", "Fallsburg", "Harris", "Bethel", "Cochecton", "Monticello", "Wurtsboro", "Chester", "Monroe"];
 
 const ServiceArea = () => {
   return (
