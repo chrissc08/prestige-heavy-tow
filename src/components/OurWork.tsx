@@ -12,6 +12,7 @@ import work11 from "@/assets/work-11.webp";
 import work12 from "@/assets/work-12.webp";
 import work13 from "@/assets/work-13.webp";
 import work14 from "@/assets/work-14.webp";
+import work15 from "@/assets/work-15.webp";
 
 const images = [
   { src: work1, alt: "Prestige Towing recovering an overturned trailer in winter conditions", focus: "object-center" },
@@ -28,6 +29,7 @@ const images = [
   { src: work12, alt: "Prestige Towing rotator recovering an overturned vehicle in a yard", focus: "object-[50%_60%]" },
   { src: work13, alt: "Prestige Towing dual rotators uprighting a trailer on highway", focus: "object-[50%_55%]" },
   { src: work14, alt: "Prestige Towing rotator recovering an overturned box truck on a country road", focus: "object-[50%_55%]" },
+  { src: work15, alt: "Prestige Towing roadside cleanup with loader and excavator", focus: "object-[50%_60%]" },
 ];
 
 const OurWork = () => {
