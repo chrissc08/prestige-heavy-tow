@@ -15,8 +15,8 @@ const Hero = () => {
           className="w-full h-full object-cover object-center"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/50 to-transparent" />
-        <div className="absolute inset-0 gradient-teal-fade opacity-40" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/30 to-transparent" />
+        <div className="absolute inset-0 gradient-teal-fade opacity-20" />
       </div>
 
       {/* Content */}
