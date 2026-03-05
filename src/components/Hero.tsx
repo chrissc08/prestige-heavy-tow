@@ -34,8 +34,8 @@ const Hero = () => {
           & Recovery Experts
         </h1>
 
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-slide-up [animation-delay:0.2s] opacity-0">
-          Fast. Reliable. Heavy-Duty. 24/7 Emergency Service.
+        <p className="text-lg md:text-xl text-foreground font-semibold max-w-2xl mx-auto mb-10 animate-slide-up [animation-delay:0.2s] opacity-0 glow-teal">
+          Fast. Reliable. Heavy-Duty. <span className="text-primary">24/7 Emergency Service.</span>
         </p>
 
         {/* CTAs */}
