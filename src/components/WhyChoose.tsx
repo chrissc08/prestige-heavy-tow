@@ -1,7 +1,7 @@
 import { MapPin, Zap, Cog, Users, Globe, ThumbsUp } from "lucide-react";
 
 const points = [
-  { icon: MapPin, title: "Locally Owned & Operated", desc: "We know Sullivan County because we're from Sullivan County, & have been in operation for 35 years." },
+  { icon: MapPin, title: "Locally Owned & Operated", desc: "We know Sullivan County because we're from Sullivan County, & have been in operation for over 35 years." },
   { icon: Zap, title: "Fast Response Times", desc: "Live dispatch 24 hours everyday." },
   { icon: Cog, title: "Heavy-Duty Equipment", desc: "Over 60 state of the art rotators, wreckers and carriers." },
   { icon: Users, title: "Experienced Operators", desc: "Skilled professionals with decades of towing & recovery experience." },
