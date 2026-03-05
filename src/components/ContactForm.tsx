@@ -76,7 +76,7 @@ const ContactForm = () => {
           className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-10 py-5 rounded-md font-display font-bold text-xl md:text-2xl tracking-wide hover:bg-primary/90 transition-all glow-box hover:scale-105 mb-8"
         >
           <Phone size={28} />
-          CALL {PHONE}!
+          CALL {PHONE}
         </a>
 
         <p className="text-muted-foreground text-base">We look forward to helping you.</p>
