@@ -23,13 +23,13 @@ const images = [
   { src: work6, alt: "Prestige Towing heavy recovery of an overturned dump truck", focus: "object-[50%_48%]" },
   { src: work7, alt: "Prestige Towing highway recovery with crane extended", focus: "object-[50%_55%]" },
   { src: work8, alt: "Prestige Towing roadside recovery with multiple wreckers", focus: "object-[50%_45%]" },
-  { src: work9, alt: "Prestige Towing hauling oversized excavator on lowboy trailer", focus: "object-[52%_44%]" },
-  { src: work10, alt: "Prestige Towing bridge recovery of an overturned truck", focus: "object-[50%_42%]" },
+  { src: work9, alt: "Prestige Towing hauling oversized excavator on lowboy trailer", focus: "object-center" },
+  { src: work10, alt: "Prestige Towing bridge recovery of an overturned truck", focus: "object-center" },
   { src: work11, alt: "Prestige Towing multi-truck recovery operation on a roadway", focus: "object-[50%_55%]" },
-  { src: work12, alt: "Prestige Towing rotator recovering an overturned vehicle in a yard", focus: "object-[48%_46%]" },
+  { src: work12, alt: "Prestige Towing rotator recovering an overturned vehicle in a yard", focus: "object-center" },
   { src: work13, alt: "Prestige Towing dual rotators uprighting a trailer on highway", focus: "object-[50%_55%]" },
   { src: work14, alt: "Prestige Towing rotator recovering an overturned box truck on a country road", focus: "object-[50%_55%]" },
-  { src: work15, alt: "Prestige Towing roadside cleanup with loader and excavator", focus: "object-[50%_46%]" },
+  { src: work15, alt: "Prestige Towing roadside cleanup with loader and excavator", focus: "object-center" },
 ];
 
 const OurWork = () => {
