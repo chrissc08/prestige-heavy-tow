@@ -16,7 +16,7 @@ const Hero = () => {
           loading="eager"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/20 to-transparent" />
-        <div className="absolute inset-0 gradient-teal-fade opacity-10" />
+        {/* Removed teal fade overlay */}
       </div>
 
       {/* Content */}
