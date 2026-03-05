@@ -6,21 +6,21 @@ const PHONE_HREF = "tel:8457948522";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-start justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
           src={heroBg}
-          alt="Heavy duty tow truck on highway at night"
-          className="w-full h-full object-cover"
+          alt="Prestige Towing heavy duty tow truck with company branding"
+          className="w-full h-full object-cover object-center"
           loading="eager"
         />
-        <div className="absolute inset-0 gradient-dark-overlay" />
-        <div className="absolute inset-0 gradient-teal-fade" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/50 to-transparent" />
+        <div className="absolute inset-0 gradient-teal-fade opacity-40" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center pt-20">
+      <div className="relative z-10 container mx-auto px-4 text-center pt-28 md:pt-36">
         {/* Emergency badge */}
         <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-5 py-2 mb-8 animate-slide-up">
           <span className="w-2 h-2 bg-primary rounded-full animate-pulse-glow" />
