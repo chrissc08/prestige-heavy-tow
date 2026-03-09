@@ -15,7 +15,7 @@
     --popover: 210 8% 20%;
     --popover-foreground: 200 6% 95%;
 
-    --primary: 180 38% 62%;
+    --primary: 180 42% 68%;
     --primary-foreground: 210 10% 5%;
 
     --secondary: 210 6% 26%;
@@ -70,16 +70,16 @@
 
 @layer utilities {
   .glow-teal {
-    text-shadow: 0 0 20px hsl(180 25% 42% / 0.35), 0 0 40px hsl(180 25% 42% / 0.12);
+    text-shadow: 0 0 12px hsl(180 25% 50% / 0.2), 0 0 24px hsl(180 25% 50% / 0.06);
   }
 
   .glow-box {
-    box-shadow: 0 0 20px hsl(180 25% 42% / 0.1), 0 0 40px hsl(180 25% 42% / 0.03);
+    box-shadow: 0 0 12px hsl(180 25% 50% / 0.06), 0 0 24px hsl(180 25% 50% / 0.02);
   }
 
   .glow-border {
-    border-color: hsl(180 25% 42% / 0.2);
-    box-shadow: 0 0 10px hsl(180 25% 42% / 0.07);
+    border-color: hsl(180 25% 50% / 0.15);
+    box-shadow: 0 0 6px hsl(180 25% 50% / 0.04);
   }
 
   .gradient-dark-overlay {
