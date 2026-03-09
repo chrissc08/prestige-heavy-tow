@@ -23,7 +23,7 @@ const About = () => {
             <h3 className="font-display text-xl font-bold text-foreground mb-1">Sean Brooks</h3>
             <span className="text-primary text-sm font-semibold tracking-wide uppercase">Founder & Owner</span>
             <p className="text-muted-foreground text-lg leading-relaxed mt-4">
-              Prestige was founded in the early 90's by Sullivan County's own, Sean Brooks. Prestige has since become a multi location, full service towing, recovery & repair company, servicing thousands of commercial companies with its vast line of equipment & strategic locations, to provide dependable & fast service to its clients.
+              Prestige was founded in the early 90's by Sullivan County's own, Sean Brooks. Prestige has since become a multi location, full service towing, recovery & repair company. Prestige services thousands of commercial companies with its vast line of equipment & strategic locations, to provide dependable & fast service to its clients.
             </p>
           </div>
         </div>
