@@ -46,7 +46,7 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 [&>*:last-child:nth-child(odd)]:md:col-span-2 [&>*:last-child:nth-child(odd)]:md:max-w-[calc(50%-0.75rem)] [&>*:last-child:nth-child(odd)]:md:mx-auto">
           {services.map((svc) => (
             <div
               key={svc.title}
