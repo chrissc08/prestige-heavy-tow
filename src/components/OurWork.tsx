@@ -28,7 +28,7 @@ const images = [
   { src: work11, alt: "Prestige Towing multi-truck recovery operation on a roadway", focus: "object-[50%_55%]" },
   { src: work12, alt: "Prestige Towing rotator recovering an overturned vehicle in a yard", focus: "object-center" },
   { src: work13, alt: "Prestige Towing dual rotators uprighting a trailer on highway", focus: "object-[50%_55%]" },
-  { src: work14, alt: "Prestige Towing rotator recovering an overturned box truck on a country road", focus: "object-[50%_55%]" },
+  { src: work14, alt: "Prestige Towing rotator recovering an overturned box truck on a country road", focus: "object-center" },
   { src: work15, alt: "Prestige Towing roadside cleanup with loader and excavator", focus: "object-center" },
 ];
 
